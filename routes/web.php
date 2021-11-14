@@ -17,7 +17,11 @@ Route::get('/', function () {
 Route::get('tugas4', function () {
     return view('tugas4js') ;
 });
+Route::get('praktikum2', function () {
+        return view('praktikum2jsjq') ;
+});
 
 //melalui controller
-Route::get('greetings',"ViewController@showGreetings") ;
-Route::post('sayhi',"ViewController@sayHi") ;
+Route::get('ets2021',"ViewController@showETS") ;
+Route::get('tugasphp',"ViewController@showTugasphp") ;
+Route::post('resultphp',"ViewController@resultphp") ;
