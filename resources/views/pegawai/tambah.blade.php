@@ -1,17 +1,13 @@
-<html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
-<body>
- 
-	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
-	<h3>Data Pegawai</h3>
- 
+@extends('layout.happy')
+@section('title', 'Data Pegawai')
+@section('judulhalaman', 'TAMBAH DATA PEGAWAI')
+
+@section('konten')
 	<a href="/pegawai"> Kembali</a>
-	
+
 	<br/>
 	<br/>
- 
+
 	<form action="/pegawai/store" method="post">
 		{{ csrf_field() }}
 		Nama <input type="text" name="nama" required="required"> <br/>
@@ -20,18 +16,7 @@
 		Alamat <textarea name="alamat" required="required"></textarea> <br/>
 		<input type="submit" value="Simpan Data">
 	</form>
- 
-</body>
-</html>
+@endsection
 
 
 
-
-
-
-
-
-
-
-
-Route::post('/pegawai/store','PegawaiController@store');

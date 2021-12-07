@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Membuat CRUD Pada Laravel | Tabel Pendapatan</title>
-</head>
-<body>
+@extends('layout.happy')
+@section('title', 'Data Pendapatan')
+@section('judulhalaman', 'TAMBAH DATA PENDAPATAN')
 
-	<h2>Tabel Pendapatan</h2>
-
+@section('konten')
 	<a href="/pendapatan"> Kembali</a>
 
 	<br/>
@@ -21,6 +17,4 @@
         Tunjangan <input type="number" name="tunjangan" required="required"> <br/>
         <input type="submit" value="Simpan Data">
 	</form>
-
-</body>
-</html>
+@endsection
