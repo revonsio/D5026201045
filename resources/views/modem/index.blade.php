@@ -4,16 +4,18 @@
 
 @section('konten')
 
-	<a href="/modem/tambah"> + Tambah modem Baru</a>
-
-	<br/>
+	<a href="/modem/tambah" class="btn btn-primary"> + Tambah modem Baru</a>
 	<br/>
     <div class="container" align="center">
-    </p> Cari Data modem Berdasarkan Merk atau Stock</p>
+    </p> Cari Data modem Berdasarkan Merk atau Ketersediaan</p>
 	<form action="/modem/cari" method="GET">
-		<input class="form-control" type="text" name="cari" placeholder="Cari modem .." value="{{ old('cari') }}">
-		<input class="form-control btn-success" type="submit" value="CARI">
+        <div class="form-group">
+            <input class="form-control" type="text" style="width: 30%;" name="cari" placeholder="Cari modem .." value="{{ old('cari') }}">
+        </div>
+		    <input class="form-control btn-success" style="width: 30%;" type="submit" value="CARI">
 	</form>
+
+<br>
 
 	<table border="1" style="text-align: center">
 		<tr>
@@ -40,6 +42,8 @@
 		</tr>
 		@endforeach
 	</table>
+
+<br>
 
     {{ $modem->links()  }}
 

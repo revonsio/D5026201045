@@ -83,7 +83,7 @@ class ModemController extends Controller
 
 		$modem = DB::table('modem')
 		->where('merkmodem','like',"%".$cari."%")
-        ->orWhere('stockmodem','like',"%".$cari."%")
+        ->orWhere('tersedia','like',"%".$cari."%")
 		->paginate();
 
 

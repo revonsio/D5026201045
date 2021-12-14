@@ -32,7 +32,6 @@
 
         <div class="form-group">
             <label>Tersedia:</label>
-            <br>
             <input type="radio" id="y" name="tersedia" value="Y" checked="checked">ADA</label>
             <label class="radio-inline" for="Y"> <br>
             <input type="radio" id="n" name="tersedia" value="N">TIDAK ADA</label>

@@ -4,7 +4,6 @@
 
 @section('konten')
     <a href="/absen/tambah" class="btn btn-primary"><i class="fas fa-plus"></i> Tambah Absen Baru</a>
-    </form>
     <table class="table table-bordered table-striped table-hover table-responsive-sm">
         <tr>
             <th class="col-sm-1">No</th>
