@@ -120,7 +120,7 @@
                     <a href="/minggudepan">Minggu Depan</a>
                 </li>
                 <li>
-                    <a href="praktikum">Praktikum</a>
+                    <a href="/modem">Praktikum</a>
                 </li>
             </ul>
           </div>
