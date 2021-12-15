@@ -82,7 +82,7 @@
         text-align: right;
         padding: 1%;
         color: #fff;
-        position: absolute;
+        position: relative;
     }
   </style>
 </head>
