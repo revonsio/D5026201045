@@ -61,3 +61,13 @@ Route::post('/modem/update','ModemController@update');
 Route::get('/modem/hapus/{id}','ModemController@hapus');
 Route::get('/modem/cari','ModemController@cari');
 Route::get('/modem/detail/{id}','ModemController@view');
+
+//CRUD tabel nilaikuliah
+Route::get('/nilaikuliah','NilaikuliahController@index');
+Route::get('/nilaikuliah/tambah','NilaikuliahController@tambah');
+Route::post('/nilaikuliah/store','NilaikuliahController@store');
+Route::get('/nilaikuliah/edit/{id}','NilaikuliahController@edit');
+Route::post('/nilaikuliah/update','NilaikuliahController@update');
+Route::get('/nilaikuliah/hapus/{id}','NilaikuliahController@hapus');
+Route::get('/nilaikuliah/cari','NilaikuliahController@cari');
+Route::get('/nilaikuliah/detail/{id}','NilaikuliahController@view');

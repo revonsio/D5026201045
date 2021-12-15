@@ -117,10 +117,10 @@
                     <a href="/pendapatan">Pendapatan</a>
                 </li>
                 <li>
-                    <a href="/minggudepan">Minggu Depan</a>
+                    <a href="/modem">Praktikum</a>
                 </li>
                 <li>
-                    <a href="/modem">Praktikum</a>
+                    <a href="/nilaikuliah">Nilai Kuliah</a>
                 </li>
             </ul>
           </div>
